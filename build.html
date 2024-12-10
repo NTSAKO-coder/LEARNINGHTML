@@ -1,45 +1,53 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="buid.css">
+    <link rel="stylesheet" href="build.css">
 </head>
 <body>
-    <div>
+    <div class="heading">
         <h2>Basic Information</h2> 
     </div>
-    <div>
-        <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg" alt="">
+    <div class="Image">
+        <img src="https://i.pinimg.com/236x/a7/da/74/a7da745a7bab241d4ef4c389cd898d26.jpg" alt="">
     </div>
-    <div class="FirstNameContainer">
+    <div class="FirstName">
         <label for="inpFName">First Name</label><br>
         <input type="text" name="inpFName" id="inpFName" value="Robert">
     </div>
 
-    <div class="LastNameontainer">
+    <div class="LastName">
             <label for="inpLName">Last Name</label><br>
             <input type="text" name="inpLName" id="" value="swein">
     </div>
-    <div>
+    <div class="occupation">
             <label for="inpOccupation">occupation</label><br>
             <input type="text" name="inpOccupation" id="inpOccupation" value="UX Design">
 
-            <div>
+            <div class="Comapany">
                 <label for="">Comapany</label><br>
                 <input type="text" name="inpCompany" id="inpCompany" value="uidesigndaily">
             </div>
+            <div class="Location">
+                <label for="category">Location</label><br>
+                <select id="category">
+                <option>Norway</option>
+                <option>Chrome</option>
+                <option>Git</option>
+                </select>
+            </div>
+
             <div>
-                <label for="">Locations</label><br>
-                <input type="text" name="inpLocation" id="inpLocation" value="Norway">
+
+                <button>cancel</button><br>
+                <input type="text" name="inpCancel" id="inpCancel" value="Cancel">
+
+                <button>Save Changes</button>
+
             </div>
     </div>
-    </body>
-    </div>
-    <div>
-        <button>cancel</button>
-        <button>save changes</button>
     </div>
 </body>
 </html>

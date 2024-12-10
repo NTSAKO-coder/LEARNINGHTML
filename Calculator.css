@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+}
+    .calculator {
+        background-color: lightpink;
+        box-shadow: 0px 0px 10px pink;
+        padding: 20px;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+.ntsako{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  
+}
+
+.display{
+    display: grid;
+    grid-template-rows: 100px 300px;
+}  
+
+.button{
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+}    
+
+.display{
+    display: flex;
+    flex-direction: row;
+}  
+.buttons:hover{
+    background-color: lightpink;
+}
+.button:active{
+    background-color: pink;
+}

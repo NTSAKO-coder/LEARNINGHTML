@@ -1,0 +1,23 @@
+body{
+    background-color: darkslateblue;
+    margin: 0;
+    padding: 0;
+   
+}
+.Image{
+  height: fit-content;
+  width: fit-content;
+  
+}
+.FirstName{
+   margin: 0%;
+   padding: 0%;
+   text-align: left;
+
+}
+.LastName{
+    margin: 0%;
+    padding: 0%;
+    text-align: right;
+    
+}

@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.email-container{
+ border-radius: 16px;
+    background-color: white;
+}
+.Terms-Container{
+    
+
+}
+.subscribe-container{
+   
+}
+.Download-Container{
+    text-align: left;
+    background-color: black;
+    text-decoration-color: white;
+
+}
