@@ -7,38 +7,44 @@
     <link rel="stylesheet" href="Trynow.css">
 </head>
 <body>
-    <form class="form">
-        <div>
+    <div class="form-container">
+
         <h1>Try it now!</h1>
-        <p>Free trial, no obligations</p>
-    </div>
+        <p>Free trial, no obligation</p>
 
-    </div>
+        <label for="email">Work email address</label>
+        <input type="email" id="email" placeholder="Enter your work email address">
 
-    <div class="email-container">
-        <label for="email">work email address</label><br>
-        <input type="email" name="email" id="email" value="Enter your work email address">
-    </div>
+        <div class="checkbox-group">
 
-    <div class="Terms-Container">
-        <input type="checkbox" name="terms" id="terms">
-        <label for="terms">I agree to the terms and conditions</label>
-    </div>
-    <div class="subscribe-container">
-        <input type="checkbox" name="terms" id="terms">
-        <label for="terms">subscribe to newsletters and communication</label>
+            <input type="checkbox" id="terms">
+            <label for="terms">
+            I agree to the <a href="#">Terms and Conditions</a>.
+            </label>
 
-    </div>
-    <div>
-        <input type="checkbox" name="terms" id="terms">
-        <label for="terms">Subscribe to trial onboarding email</label>
+        </div>
+        <div class="checkbox-group">
 
-    <div >
-                <input type="text" name="inpDownload" id="inpDownload" value="DOWNLOAD NOW">
+            <input type="checkbox" id="inpcheckbox">
+            <label for="checkbox">
+            Subscribe to newsletters and communications.
+            </label>
+
+        </div>
+        <div class="checkbox-group">
+
+            <input type="checkbox" id="onboarding">
+            <label for="onboarding">
+            Subscribe to trial onboarding emails.
+            </label>
+
+        </div>
+        <button>DOWNLOAD NOW</button>
+
+        <p class="privacy">
+            We value your privacy and you have complete control over any information submitted. 
+            For more information, see our <a href="#">privacy policy</a>.
+        </p>
     </div>
-    <div>
-        <h6>We value your privacy and you have complete control over any information submitted.For mare information see our privacy policy.</h6>
-    </div>
-    </form>
 </body>
 </html>
